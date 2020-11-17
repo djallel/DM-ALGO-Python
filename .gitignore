@@ -1,0 +1,13 @@
+
+.idea/inspectionProfiles/
+
+venv/Lib/site-packages/__pycache__/
+
+venv/Lib/site-packages/pip/_internal/index/__pycache__/
+
+venv/Lib/site-packages/pip/_internal/
+/venv/
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/misc.xml
+/.idea/DM-ALGO-Python.iml
