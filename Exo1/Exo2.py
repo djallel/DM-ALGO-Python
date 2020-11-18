@@ -4,6 +4,19 @@ print("Exo 2 Ecrire une fonction qui a en paramètre un tableau non vide, un ent
 
 tableau=[1,2,4,5];
 
+def indicePremiereOccurence(tableau, v):
+    longueur = len(tableau)
+    indice_valeur = 0
+    for i in range(longueur):
+        if tableau[i] == v:
+            indice_valeur = i
+
+    print(indice_valeur)
+    return indice_valeur
+
+indicePremiereOccurence(tableau, 5)
+indicePremiereOccurence(tableau, 9)
+
 
 
 
